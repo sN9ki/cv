@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiril Mikhatskyi – CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <aside class="sidebar">
+            <div class="avatar">KM</div>
+            <div class="name">Kiril<br>Mikhatskyi</div>
+            <span class="badge">Student</span>
+
+            <hr>
+
+            <div class="contact">
+                <div class="icon-box">
+                    <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div>
+                    <small>Email</small>
+                    <span>kirillmihackiy@gmail.com</span>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="icon-box">
+                    <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                    <small>Phone number</small>
+                    <span>+380 63 555 94 56</span>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="icon-box">
+                    <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                </div>
+                <div>
+                    <small>Date of birth</small>
+                    <span>June 30, 2007</span>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="icon-box">
+                    <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                    <small>Address</small>
+                    <span>Ukraine</span>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="social">
+                <a href="https://github.com/sN9ki" target="_blank" title="GitHub">
+                    <svg viewBox="0 0 24 24"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+                </a>
+                <a href="mailto:kirillmihackiy@gmail.com" title="Email">
+                    <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </a>
+            </div>
+        </aside>
+
+        <div class="content">
+            <nav class="navbar">
+                <a href="#about">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#code">Code Examples</a>
+                <a href="#education">Education</a>
+                <a href="#languages">Languages</a>
+                <a href="#projects">Projects</a>
+                <a href="index.html" class="lang">UA</a>
+            </nav>
+
+            <main>
+                <section id="about">
+                    <h2>About me</h2>
+                    <p>Student of the Cybersecurity specialty. I do web development and programming: I build websites and online stores, write scripts and Telegram bots in Python and Node.js, and deploy projects to my own servers. I completed a cybersecurity internship.</p>
+                </section>
+
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul class="list">
+                        <li>HTML, CSS, JavaScript, TypeScript, PHP</li>
+                        <li>React, Next.js, Node.js, SSR</li>
+                        <li>Python: Pyrogram, Telethon, pyTelegramBotAPI, BeautifulSoup, OpenCV</li>
+                        <li>PostgreSQL, Prisma, SQLite, SQL</li>
+                        <li>C#, x86 Assembly (emu8086)</li>
+                        <li>Git / GitHub</li>
+                        <li>Linux servers: Hetzner, Nginx, PM2</li>
+                        <li>VS Code</li>
+                    </ul>
+                </section>
+
+                <section id="code">
+                    <h2>Code Examples</h2>
+                    <div class="code-title">JavaScript: finding the alphabet for a letter (login form)</div>
+<pre>function findAlphabet(letter) {
+    for (const lang of Object.values(library)) {
+        if (lang.alphabet.includes(letter)) {
+            return lang.alphabet;
+        }
+    }
+    return [];
+}</pre>
+                    <div class="code-title">Python: checking if a user is banned in a Telegram bot</div>
+<pre>def is_user_banned_from_bot(user_id):
+    cursor.execute('''
+    SELECT 1 FROM banned_users WHERE user_id = ?
+    ''', (user_id,))
+    return cursor.fetchone() is not None</pre>
+                </section>
+
+                <section id="education">
+                    <h2>Education</h2>
+                    <div class="edu">
+                        <h3>College</h3>
+                        <p>KAI TECH, specialty "Cybersecurity"</p>
+                        <small>currently studying</small>
+                    </div>
+                    <div class="edu">
+                        <h3>Internship</h3>
+                        <p>Valsi Dev LLC: cybersecurity internship, preparing technical documentation</p>
+                    </div>
+                    <div class="edu">
+                        <h3>School and club</h3>
+                        <p>School No. 285. After school I attended the club <a href="https://druzi.biz" target="_blank">druzi.biz</a></p>
+                    </div>
+                    <div class="edu">
+                        <h3>Certificates</h3>
+                        <p>HTML, CSS, PHP</p>
+                    </div>
+                </section>
+
+                <section id="languages">
+                    <h2>Languages</h2>
+                    <ul class="list">
+                        <li>Ukrainian (Native)</li>
+                        <li>Russian (Fluent)</li>
+                    </ul>
+                </section>
+
+                <section id="projects">
+                    <h2>Projects</h2>
+
+                    <div class="project">
+                        <h3>RedNova</h3>
+                        <div class="tags"><span>Next.js</span><span>React</span><span>TypeScript</span><span>Prisma</span><span>PostgreSQL</span><span>SSR</span></div>
+                        <p>An online store on a custom platform: pages for customers and a separate admin panel. I designed and built it myself. The code is in a private repository.</p>
+                        <h4>What was done</h4>
+                        <ul class="list">
+                            <li>site architecture, dynamic sitemaps via Prisma, SSR for better SEO</li>
+                            <li>Nova Poshta API integration: choosing a branch on a map, logistics automation</li>
+                            <li>catalog with filters and search, products with variants, cart, promo codes, reviews, personal account</li>
+                            <li>admin panel: products, categories, orders, promotions, analytics, supplier price list import (XML, CSV)</li>
+                            <li>support Telegram bot on grammY</li>
+                            <li>legal pages and marketing banners</li>
+                            <li>deployment on Hetzner servers: Nginx, PM2, PostgreSQL, backups before releases</li>
+                        </ul>
+                        <a class="link" href="https://rednova.com.ua" target="_blank">rednova.com.ua</a>
+                    </div>
+
+                    <div class="project">
+                        <h3>VENTURESOME</h3>
+                        <div class="tags"><span>JavaScript</span><span>React</span><span>SSR</span></div>
+                        <p>A website of a pedigree miniature bull terrier kennel with a Ukrainian/English language switch. I developed and launched it myself.</p>
+                        <ul class="list">
+                            <li>pages: home, our dogs, puppies, about the breed, about us, shows, F.A.Q.</li>
+                            <li>server side, SSR and sitemap generation</li>
+                            <li>meta tags and Open Graph for search engines and social networks</li>
+                        </ul>
+                        <a class="link" href="https://venturesome.net" target="_blank">venturesome.net</a>
+                    </div>
+
+                    <div class="project">
+                        <h3>Automation scripts and Telegram bots</h3>
+                        <div class="tags"><span>Python</span><span>Node.js</span><span>Pyrogram</span><span>Telethon</span><span>BeautifulSoup</span><span>OpenCV</span></div>
+                        <ul class="list">
+                            <li>Python and Node.js scripts for working with the Telegram API (Pyrogram, Telethon)</li>
+                            <li>tools for data collection and automatic image processing (BeautifulSoup, OpenCV)</li>
+                            <li>Telegram bot with a menu and inline buttons on pyTelegramBotAPI and SQLite: stores purchases and banned users, payments are confirmed by a moderator</li>
+                        </ul>
+                    </div>
+
+                    <div class="project">
+                        <h3>Login form</h3>
+                        <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                        <p>A login form with required fields, a show-password checkbox and a pop-up where the entered name is printed letter by letter.</p>
+                        <a class="link" href="https://github.com/sN9ki/login-form" target="_blank">github.com/sN9ki/login-form</a><br>
+                        <a class="link" href="https://sn9ki.github.io/login-form/" target="_blank">sn9ki.github.io/login-form</a>
+                        <img src="img/login-form.png" alt="Login form">
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
